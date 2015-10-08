@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package corg.pentaho.community.delegate;
+package org.pentaho.community.di.database.orientdb.delegate;
 
 import java.sql.Connection;
 import java.sql.Driver;

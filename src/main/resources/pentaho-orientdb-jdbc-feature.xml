@@ -1,7 +1,7 @@
 <features xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
 
   <feature name="pentaho-orientdb-jdbc-feature" version="1.0-SNAPSHOT">
-    <bundle>mvn:corg.pentaho.community/pentaho-orientdb-jdbc/1.0-SNAPSHOT</bundle>
+    <bundle>mvn:org.pentaho.community/pentaho-orientdb-jdbc/1.0-SNAPSHOT</bundle>
   </feature>
 
 </features>

@@ -21,7 +21,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>corg.pentaho.community</groupId>
+    <groupId>org.pentaho.community</groupId>
     <artifactId>pentaho-orientdb-jdbc</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>bundle</packaging>
@@ -110,7 +110,7 @@
                     <instructions>
                         <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
                         <Bundle-Version>${project.version}</Bundle-Version>
-                        <Export-Package>corg.pentaho.community.*;version=${project.version}</Export-Package>
+                        <Export-Package>org.pentaho.community.di.database.orientdb.*;version=${project.version}</Export-Package>
                         <Import-Package>org.pentaho.di.osgi,
                             *</Import-Package>
                     </instructions>

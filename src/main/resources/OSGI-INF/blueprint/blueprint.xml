@@ -6,7 +6,7 @@
              http://www.osgi.org/xmlns/blueprint/v1.0.0 http://www.osgi.org/xmlns/blueprint/v1.0.0/blueprint.xsd
              http://www.pentaho.com/xml/schemas/pentaho-blueprint http://www.pentaho.com/xml/schemas/pentaho-blueprint.xsd">
 
-  <bean id="MyDatabase" class="corg.pentaho.community.OrientDbMeta" scope="singleton">
+  <bean id="MyDatabase" class="org.pentaho.community.di.database.orientdb.OrientDbMeta" scope="singleton">
     <pen:di-plugin type="org.pentaho.di.core.plugins.DatabasePluginType"/>
   </bean>
 

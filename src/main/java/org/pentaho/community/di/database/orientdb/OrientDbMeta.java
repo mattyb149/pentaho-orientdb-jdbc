@@ -16,9 +16,9 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package corg.pentaho.community;
+package org.pentaho.community.di.database.orientdb;
 
-import corg.pentaho.community.delegate.DelegateDriver;
+import org.pentaho.community.di.database.orientdb.delegate.DelegateDriver;
 import org.pentaho.di.core.Const;
 import org.pentaho.di.core.database.BaseDatabaseMeta;
 import org.pentaho.di.core.database.DatabaseInterface;
